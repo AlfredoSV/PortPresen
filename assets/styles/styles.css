@@ -2,19 +2,20 @@ body{
     padding: 0px;
     margin: 0px;
     font-family:Arial;
-    font-size: 18px;
+    font-size: 13px;
     background-color: #ccc;
 }
 
 nav{ 
     
     box-shadow: 10px ;
-    background-color:#5D625F;
-    color: white;
+    background-color:white;
+    color: black;
     width: 100%;
-    
-    padding-top: 9px;
-    border-bottom: 1px #ccc solid;
+    padding-top: 2px;
+    border-bottom: 1px #eee solid;
+    font-size: 14px;
+    box-shadow: 0px 3px 0px 0px #ddd;
  
     
 }
@@ -23,7 +24,7 @@ nav{
     
 }
 .nav__ul{
-    padding-left: 3px;
+    padding-left: 2px;
 }
 
 .nav__li {
@@ -38,7 +39,7 @@ nav{
   }
 
 .li--active{
-    background-color:#599F71;
+    background-color:#4D6B9F;
     color: white;
     border-radius: 5px;
 }
@@ -59,15 +60,16 @@ nav{
 }
 
 footer{
-    color: white;
+    color: black;
     text-align: center;
-    background-color: #5D625F;
+    background-color: white;
     width: 100%;
     height: 41px;
-    padding-top: 20px; 
-    margin-top: 10px;
+    padding-top: 10px; 
+    margin-top: 5px;
     bottom: 0;
     position: absolute;
+    font-weight: bold;
 
 }
 
