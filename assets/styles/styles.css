@@ -1,0 +1,97 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family:Arial;
+    font-size: 18px;
+    background-color: #ccc;
+}
+
+nav{ 
+    
+    box-shadow: 10px ;
+    background-color:#5D625F;
+    color: white;
+    width: 100%;
+    
+    padding-top: 9px;
+    border-bottom: 1px #ccc solid;
+ 
+    
+}
+.nav__header{
+    font-weight: bold;
+    
+}
+.nav__ul{
+    padding-left: 3px;
+}
+
+.nav__li {
+    display: inline;
+    list-style: none;
+    padding: 7px;
+    margin: 10px;
+    cursor: pointer;
+
+    padding: 10px;
+    
+  }
+
+.li--active{
+    background-color:#599F71;
+    color: white;
+    border-radius: 5px;
+}
+.containerAcerca{
+    background-color: gold;
+    display: none;
+}
+
+.containerPort{
+    margin-top: 6px;
+    background-color: #599F71;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 35px;
+
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: #5D625F;
+    width: 100%;
+    height: 41px;
+    padding-top: 20px; 
+    margin-top: 10px;
+    bottom: 0;
+    position: absolute;
+
+}
+
+
+
+/***/
+
+.card{
+    border: solid black 1px;
+    padding: 5px;
+    margin: 5px;
+    
+
+}
+
+.card__headerCard{
+    background-color: #4167A5;
+    color: white;
+    padding: 6px;
+    text-align: center;
+
+}
+
+.card__descCard{
+    background-color: white;padding: 6px;
+
+}
