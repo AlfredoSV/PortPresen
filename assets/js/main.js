@@ -14,12 +14,12 @@
         document.querySelector("#pest0").className = "nav__li nav__header";
         if(e["target"].id== "pest1" || e["target"].id== "pest0" ){
             pestaña1.style.display = "none";            
-            pestaña2.style.display = "block";
+            pestaña2.style.display = "grid";
 
             document.querySelector("#pest1").className = "nav__li li--active";
             
         }else if(e["target"].id== "pest2"){
-            pestaña1.style.display = "block";
+            pestaña1.style.display = "grid";
             pestaña2.style.display = "none";
         }
     });

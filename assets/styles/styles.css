@@ -34,21 +34,21 @@ nav{
     margin: 10px;
     cursor: pointer;
 
-    padding: 10px;
+    padding: 5px;
     
   }
 
 .li--active{
-    background-color:#4D6B9F;
-    color: white;
-    border-radius: 5px;
-}
-.containerAcerca{
-    background-color: gold;
-    display: none;
+    color:#4D6B9F;
+    border-bottom: #4D6B9F solid 2.5px;
+
 }
 
-.containerPort{
+
+
+
+
+.containerPort,.containerAcerca{
     margin-top: 6px;
     background-color: #599F71;
     display: grid;
@@ -58,7 +58,13 @@ nav{
     margin: 35px;
 
 }
-
+.containerAcerca{
+  display:none;
+  background-color:white;
+  margin:16px;
+  border-radius:20px;
+  padding:6px;
+}
 footer{
     color: black;
     text-align: center;
@@ -97,3 +103,13 @@ footer{
     background-color: white;padding: 6px;
 
 }
+
+img{
+   width:480px;
+   height:480px;
+   
+}
+.desDiv,.imgDiv{
+    text-align:center;
+}
+

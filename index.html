@@ -8,24 +8,22 @@
 </head>
 <body>
 
-    
-
-
         <nav>
             <ul class="nav__ul">
-                <li class="nav__li nav__header" id="pest0" >AlfredoSV</li> |
-                <li class="nav__li" id="pest1">Acerca de mí</li> |
-                <li class="nav__li li--active" id="pest2">Portafolio</li>
+                <li class="nav__li nav__header" id="pest0" onclick='changePest(this.id);' >AlfredoSV</li> |
+                <li class="nav__li" id="pest1" onclick='changePest(this.id);'>Acerca de mí</li> |
+                <li class="nav__li li--active" id="pest2" onclick='changePest(this.id);'>Portafolio</li>
             </ul>
         </nav>
 
 
     <section class="containerAcerca">
 
-        <img  alt="meFt" src="./assets/img/user.png"></im>
-        <p id="descp"></p>
+	<div class="imgDiv"><img src="./assets/img/me.JPG"  /></div>
+	<div class="desDiv">
+		<p id="descp"><h1>Hola, mi nombre es Alfredo. :)</h1></p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nemo libero dicta in nisi ad error unde quas totam aperiam optio, possimus repudiandae repellat harum quidem. Recusandae doloribus accusantium cum.
-
+	</div>
     </section>
 
     <section class="containerPort">
@@ -36,7 +34,7 @@
             </div>
             <div class="card__descCard">
 
-                <img/>
+
                 CRUD básico desarrollado con el lenguaje de programación C# Y utilizando su Framework Asp .Net MVC
                 <ul>
                     <li>Cómo SGBD se utilizó Sql Server</li>
