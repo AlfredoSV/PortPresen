@@ -1,28 +1,26 @@
-(()=>{
-    const pestañaClick = document.querySelector(".nav__ul"); 
-    const pestaña1 = document.querySelector(".containerAcerca");
-    const pestaña2 = document.querySelector(".containerPort");
+
+let conts = Array('containerAcerca','containerPort');
+let pests = Array('pest1','pest2');
     
-
-    pestañaClick.addEventListener('click',function (e){
-        console.log(e["target"].id);
-
-        document.querySelector("#pest1").className = "nav__li";
-        document.querySelector("#pest2").className = "nav__li";
-
-        e["target"].className = "nav__li li--active";
-        document.querySelector("#pest0").className = "nav__li nav__header";
-        if(e["target"].id== "pest1" || e["target"].id== "pest0" ){
-            pestaña1.style.display = "none";            
-            pestaña2.style.display = "grid";
-
-            document.querySelector("#pest1").className = "nav__li li--active";
-            
-        }else if(e["target"].id== "pest2"){
-            pestaña1.style.display = "grid";
-            pestaña2.style.display = "none";
-        }
+   const changePest = (cont,pest)=>{
+   	
+    
+    conts.forEach(function(elemento){
+      
+      console.log(elemento);
+      document.querySelector('.'+elemento).style.display='none';
+      	
     });
-    
-})();
 
+     pests.forEach(function(elemento){
+      
+      console.log(elemento);
+      document.querySelector('#'+elemento).classList.remove('li--active');
+      	
+    });
+    document.querySelector("."+cont).style.display = 'grid';
+    document.querySelector("#"+pest).classList.add('li--active');
+      
+
+  }
+    
