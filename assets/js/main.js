@@ -3,18 +3,15 @@ let conts = Array('containerAcerca','containerPort');
 let pests = Array('pest1','pest2');
     
    const changePest = (cont,pest)=>{
-   	
-    
+
     conts.forEach(function(elemento){
       
-      console.log(elemento);
       document.querySelector('.'+elemento).style.display='none';
       	
     });
 
      pests.forEach(function(elemento){
       
-      console.log(elemento);
       document.querySelector('#'+elemento).classList.remove('li--active');
       	
     });

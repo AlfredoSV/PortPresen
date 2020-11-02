@@ -74,7 +74,7 @@ footer{
     padding-top: 10px; 
     margin-top: 5px;
     bottom: 0;
-    position: absolute;
+    position: fixed;
     font-weight: bold;
 
 }
@@ -109,7 +109,12 @@ img{
    height:480px;
    
 }
-.desDiv,.imgDiv{
-    text-align:center;
+.desDiv{
+   font-size: 15px;
+   font-family:Slabo;
+}
+
+.imgDiv{
+    text-align: center;
 }
 
