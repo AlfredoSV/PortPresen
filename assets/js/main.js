@@ -1,6 +1,6 @@
 
-let conts = Array('containerAcerca','containerPort');
-let pests = Array('pest1','pest2');
+let conts = Array('containerPort','containerHabi');
+let pests = Array('pest2','pest3',);
     
    const changePest = (cont,pest)=>{
 
@@ -20,4 +20,6 @@ let pests = Array('pest1','pest2');
       
 
   }
+  
+changePest("containerPort","pest2");
     
