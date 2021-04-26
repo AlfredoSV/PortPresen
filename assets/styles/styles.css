@@ -3,7 +3,7 @@ body{
     margin: 0px;
     font-family:Arial;
     font-size: 15px;
-    background-color: white;
+    background-image: url("../img/fondo.jpg");
 }
 
 nav{ 
@@ -101,6 +101,7 @@ footer{
  
     font-weight: bold;
 	border-top: 2.5px #ccc solid;
+    opacity: 0.8;
 }
 
 
@@ -111,6 +112,7 @@ footer{
 
     padding: 2px;
     margin: 2px;
+    opacity: 0.8;
     
 
 }
@@ -181,9 +183,9 @@ img{
 
     margin:0px 20px 40px 40px;
 	padding: 10px 10px 10px 10px;
-	border-radius:30px;
+	
 	color:black;
-	background-color:white;
+
 
 
 }
