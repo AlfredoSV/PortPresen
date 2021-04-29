@@ -104,6 +104,14 @@ footer{
     opacity: 0.8;
 }
 
+.btn{
+    border-radius:8px;
+    background-color: #4D6B9F;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
 
 
 /***/
@@ -181,7 +189,7 @@ img{
 
 .containerHabi{
 
-    margin:0px 20px 40px 40px;
+    margin:0px 20px 15px 15px;
 	padding: 10px 10px 10px 10px;
 	
 	color:black;
